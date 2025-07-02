@@ -50,6 +50,7 @@ img {
   text-align: center;
   justify-content: center;
   position: absolute;
-  top: 10%;
+  top: 12%;
   color: orange;
+  background-color: rgba(0, 0, 0, 0.9);
 }
