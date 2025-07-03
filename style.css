@@ -39,12 +39,13 @@ img {
 }
 
 .right-section {
-  border: 1px solid blue;
   width: 65vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .JBM {
-  font-family: ComicReliefRegular;
+  font-family: comicReliefRegular;
   height: fit-content;
   width: 100%;
   text-align: center;
@@ -53,4 +54,77 @@ img {
   top: 12%;
   color: orange;
   background-color: rgba(0, 0, 0, 0.9);
+}
+
+.right-section-top {
+  border: 1px solid red;
+  height: 30vh;
+  position: relative;
+  background-color: aliceblue;
+}
+
+.right-section-middle {
+  border: 1px solid red;
+  height: 40vh;
+  position: relative;
+}
+
+.right-section-bottom {
+  border: 1px solid red;
+  height: 30vh;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.five-percent {
+  border: 1px solid blue;
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  bottom: 10%;
+  left: 3%;
+}
+
+.row-1,
+.row-2,
+.row-3,
+.row-4 {
+  border: 1px solid yellow;
+  height: 25%;
+  display: flex;
+  margin-left: 3%;
+  gap: 3%;
+}
+
+.sign-up {
+  border: 1px solid blue;
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 5%;
+}
+
+label {
+  border: 1px solid green;
+}
+
+p {
+  border: 1px solid blue;
+  width: fit-content;
+  height: fit-content;
+  margin-left: 3%;
+  position: absolute;
+  top: 20%;
+}
+
+form {
+  height: 90%;
+}
+
+button {
+  margin-left: 3%;
+  position: absolute;
+  top: 5%;
 }
